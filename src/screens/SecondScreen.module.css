@@ -1,0 +1,115 @@
+.title {
+    font-family: "Assistant";
+    font-size: 3rem;
+    text-align: center;
+    margin: 2% auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1% auto;
+    direction: rtl;
+    flex-wrap: wrap;
+}
+
+/* מתחת ל-350px */
+@media (max-width: 350px) {
+    .row {
+        width: 100%;
+    }
+    .title {
+        font-size: 2rem;
+    }
+}
+
+/* 350px - 450px */
+@media (min-width: 351px) and (max-width: 450px) {
+    .row {
+        width: 95%;
+    }
+    .title {
+        font-size: 2.2rem;
+    }
+}
+
+/* 450px - 550px */
+@media (min-width: 451px) and (max-width: 550px) {
+    .row {
+        width: 90%;
+    }
+    .title {
+        font-size: 2.4rem;
+    }
+}
+
+/* 550px - 650px */
+@media (min-width: 551px) and (max-width: 650px) {
+    .row {
+        width: 85%;
+    }
+    .title {
+        font-size: 2.6rem;
+    }
+}
+
+/* 650px - 750px */
+@media (min-width: 651px) and (max-width: 750px) {
+    .row {
+        width: 80%;
+    }
+    .title {
+        font-size: 2.7rem;
+    }
+}
+
+/* 750px - 850px */
+@media (min-width: 751px) and (max-width: 850px) {
+    .row {
+        width: 75%;
+    }
+    .title {
+        font-size: 2.8rem;
+    }
+}
+
+/* 850px - 950px */
+@media (min-width: 851px) and (max-width: 950px) {
+    .row {
+        width: 70%;
+    }
+    .title {
+        font-size: 2.9rem;
+    }
+}
+
+/* 950px - 1050px */
+@media (min-width: 951px) and (max-width: 1050px) {
+    .row {
+        width: 65%;
+    }
+}
+
+/* 1050px - 1150px */
+@media (min-width: 1051px) and (max-width: 1150px) {
+    .row {
+        width: 62%;
+    }
+}
+
+/* 1150px - 1250px */
+@media (min-width: 1151px) and (max-width: 1250px) {
+    .row {
+        width: 60%;
+    }
+}
+
+/* מעל 1250px */
+@media (min-width: 1251px) {
+    .row {
+        width: 60%;
+    }
+}

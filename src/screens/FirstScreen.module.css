@@ -1,0 +1,176 @@
+/* Base styles */
+.title {
+    font-family: "Ibra";
+    font-size: 3rem;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.titleP {
+    font-family: "Ibra";
+    font-size: 3rem;
+    padding-top: 80px;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.job {
+    font-family: "AssistantJ";
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.center {
+    width: 40%;
+    justify-content: center;
+    margin: 25px auto;
+}
+
+.image {
+    object-fit: contain;
+    width: 100%;
+}
+
+/* Under 350px */
+@media screen and (max-width: 349px) {
+    .title, .titleP {
+        font-size: 1.8rem;
+    }
+   
+    .job {
+        font-size: 1rem;
+    }
+    .center {
+        width: 90%;
+    }
+}
+
+/* 350px - 450px */
+@media screen and (min-width: 350px) and (max-width: 450px) {
+    .title, .titleP {
+        font-size: 2rem;
+        margin:2% auto;
+    }
+
+    .job {
+        font-size: 1rem;
+    }
+    .center {
+        width: 85%;
+    }
+}
+
+/* 450px - 550px */
+@media screen and (min-width: 451px) and (max-width: 550px) {
+    .title, .titleP {
+        font-size: 2.2rem;
+    }
+    .titleP {
+        padding-top: 55px;
+    }
+    .job {
+        font-size: 1.2rem;
+    }
+    .center {
+        width: 80%;
+    }
+}
+
+/* 550px - 650px */
+@media screen and (min-width: 551px) and (max-width: 650px) {
+    .title, .titleP {
+        font-size: 2.4rem;
+    }
+ 
+    .job {
+        font-size: 1.3rem;
+    }
+    .center {
+        width: 75%;
+    }
+}
+
+/* 650px - 750px */
+@media screen and (min-width: 651px) and (max-width: 750px) {
+    .title, .titleP {
+        font-size: 2.5rem;
+    }
+  
+    .job {
+        font-size: 1.35rem;
+    }
+    .center {
+        width: 70%;
+    }
+}
+
+/* 750px - 850px */
+@media screen and (min-width: 751px) and (max-width: 850px) {
+    .title, .titleP {
+        font-size: 2.6rem;
+    }
+
+    .job {
+        font-size: 1.4rem;
+    }
+    .center {
+        width: 60%;
+    }
+}
+
+/* 850px - 950px */
+@media screen and (min-width: 851px) and (max-width: 950px) {
+    .title, .titleP {
+        font-size: 2.7rem;
+    }
+ 
+    .job {
+        font-size: 1.45rem;
+    }
+    .center {
+        width: 55%;
+    }
+}
+
+/* 950px - 1050px */
+@media screen and (min-width: 951px) and (max-width: 1050px) {
+    .title, .titleP {
+        font-size: 2.8rem;
+    }
+
+    .job {
+        font-size: 1.45rem;
+    }
+    .center {
+        width: 50%;
+    }
+}
+
+/* 1050px - 1150px */
+@media screen and (min-width: 1051px) and (max-width: 1150px) {
+    .title, .titleP {
+        font-size: 2.9rem;
+    }
+   
+    .job {
+        font-size: 1.48rem;
+    }
+    .center {
+        width: 45%;
+    }
+}
+
+/* 1150px - 1250px */
+@media screen and (min-width: 1151px) and (max-width: 1250px) {
+    .title, .titleP {
+        font-size: 3rem;
+    }
+
+    .job {
+        font-size: 1.5rem;
+    }
+    .center {
+        width: 40%;
+    }
+}
