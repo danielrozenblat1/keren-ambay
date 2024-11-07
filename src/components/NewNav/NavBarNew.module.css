@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(to right, rgba(124, 66, 28, 0.3), rgba(124, 66, 28, 0.3));
+  background: linear-gradient(to right, rgba(124, 66, 28, 0.2), rgba(124, 66, 28, 0.2));
   height: 80px;
   width: 100%;
   display: flex;
@@ -46,7 +46,7 @@
 }
 
 .logo img {
-  height: 9vh;
+  height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
