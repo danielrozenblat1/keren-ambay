@@ -1,8 +1,8 @@
 import styles from "./Recommends.module.css"
-import result1 from "../../images/קרן אמבאי תסרוקות 1.png"
+import result1 from "../../videos/קרן אמבאי תפירה 1.mp4"
 import result2 from "../../images/קרן אמבאי תסרוקות 2.png"
 import result3 from "../../images/קרן אמבאי תסרוקות 3.png"
-import result4 from "../../images/קרן אמבאי תסרוקות 4.png"
+import result4 from "../../videos/קרן אמבאי תפירה 2.mp4"
 import result5 from "../../images/קרן אמבאי תסרוקות 5.png"
 import result6 from "../../images/קרן אמבאי תסרוקות 6.png"
 import result7 from "../../images/קרן אמבאי תסרוקות 7.png"
@@ -31,7 +31,7 @@ const Recommends=()=>{
       };
       const content = [
         {
-          type: 'image',
+          type: 'video',
           src: result1,
         },
        
@@ -44,7 +44,7 @@ const Recommends=()=>{
           src: result3,
         },
         {
-          type: 'image',
+          type: 'video',
           src: result4,
         },
         {
