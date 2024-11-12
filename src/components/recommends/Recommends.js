@@ -74,9 +74,11 @@ return <>
               {item.type === 'video' && (
                 <video
                   style={{ width: "100%",display:"flex",objectFit:"cover", margin: "auto", height: "100%" }}
-                  muted
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline 
                   controls
-                
                   itemprop="image"
                 >
                   <source src={item.src} type="video/mp4" />
